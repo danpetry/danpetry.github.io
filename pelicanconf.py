@@ -26,10 +26,15 @@ AUTHOR_FEED_RSS = None
 #         ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+    ('github', 'https://github.com/danpetry'),
+    ('resident_advisor',
+        'https://www.residentadvisor.net/profile/danielpetry/contrib'),
+    ('soundcloud', 'https://soundcloud.com/danielpetry'),
+)
 
 DEFAULT_PAGINATION = False
 
+USE_LESS = True
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
