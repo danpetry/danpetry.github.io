@@ -10,7 +10,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.1;
 }
 
@@ -93,7 +93,7 @@ aside {
     }
 
     h1 {
-      margin: 5px 0 5px 0;
+      margin: 15px 0 5px 0;
     }
 
     p {
@@ -115,7 +115,6 @@ aside {
 }
 
 main {
-  background-color: @grey-me;
   nav {
     text-align: center;
     text-transform: uppercase;
@@ -363,7 +362,7 @@ ul.social {
   padding-top: 20px;
 
   li {
-    display: block:;
+    display: inline;
   }
 
   a:hover {
@@ -476,13 +475,12 @@ ul.social {
 
 @media screen and (min-width: 768px) {
   aside {
-    width: 10%;
+    width: 25%;
     height: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     overflow-y: auto;
-    z-index: 6;
 
     div {
       padding: 36px 18px;
@@ -503,12 +501,11 @@ ul.social {
   }
 
   main {
-    width: 100%;
+    width: 75%;
     height: 100%;
     position: absolute;
     top: 0;
-    left: 0%;
-    z-index: 5;
+    left: 25%;
 
     article {
 
