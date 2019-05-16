@@ -28,10 +28,13 @@ AUTHOR_FEED_RSS = None
 # Social widget
 SOCIAL = (
     ('github', 'https://github.com/danpetry'),
-    ('resident_advisor',
+    ('resident-advisor',
         'https://www.residentadvisor.net/profile/danielpetry/contrib'),
     ('soundcloud', 'https://soundcloud.com/danielpetry'),
 )
+
+MENUITEMS = (('Production', '/production.html'),
+             ('Coding', '/coding.html'),)
 
 DEFAULT_PAGINATION = False
 

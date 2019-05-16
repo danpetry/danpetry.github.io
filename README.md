@@ -10,11 +10,12 @@ pelican --listen
 
 ## todos
 
-- make photo and sidebar look/work well on computer and mobile
-- get RA logo showing up (even though the user needs to log in)
 - upload mixes to mixcloud and add that
 - tidy up git, i.e. what's being committed. Add blank index.html pointing to
   /output?
-- tidy up "my" theme folder
+- tidy up "my" theme folder. Put into site folder?
 - add ground symbol in top right with dropdown to several blogs
 - adjust look and feel of blogs
+- get opinions and refine
+  - use bootstrap for eg sidebar/icons, to get better auto resizing and get an
+    RA icon
