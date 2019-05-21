@@ -6,7 +6,7 @@ import os
 AUTHOR = 'Daniel Petry'
 SITENAME = 'Dan Petry'
 SITEDESCRIPTION = 'Dan Petry\'s website'
-SITEURL = 'http://localhost:8081'
+SITEURL = 'http://localhost:8082'
 
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -54,14 +54,6 @@ HERO = [
   {
     'image': '/images/hero/background-1.jpg',
     # for multilanguage support, create a simple dict
-    'title': {
-      'en':'Some special content',
-      'de': 'Spezieller Inhalt'
-    },
-    'text': {
-      'en': 'bhasdf foo basdsfr here',
-      'de': 'Jeglicher spezieller Inhalt den Sie hier bewerben möchten'
-    },
     'links': [
       {
         'icon': 'icon-code',
@@ -69,23 +61,6 @@ HERO = [
         'text': 'Github'
       }
     ]
-  }, {
-    'image': '/images/hero/background-2.jpg',
-    # keep it a string if you dont need multiple languages
-    'title': 'Uh, special tosdfsdfo',
-    # keep it a string if you dont need multiple languages
-    'text': 'Keep hero.text and hero.title a string if you dont need multilanguage.',
-    'links': []
-  }, {
-    'image': '/images/hero/background-3.jpg',
-    'title': 'No Blogroll yet',
-    'text': 'Because of space issues in the man-nav, i didnt implemented Blogroll links yet.',
-    'links': []
-  }, {
-    'image': '/images/hero/background-4.jpg',
-    'title': 'Ads missing as well',
-    'text': 'And since i hate any ads, this is not implemented as well',
-    'links': []
   }
 ]
 

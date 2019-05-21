@@ -4,17 +4,17 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
+<head>
     {% if GOOGLE_TRACKING_ID %}
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id={{ GOOGLE_TRACKING_ID }}"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ GOOGLE_TRACKING_ID }}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
 
-            gtag('config', '{{ GOOGLE_TRACKING_ID }}');
-        </script>
+gtag('config', '{{ GOOGLE_TRACKING_ID }}');
+    </script>
     {% endif %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,8 +23,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {% block meta %}
-        <meta name="description" content="{{ SITEDESCRIPTION }}" />
-        <meta name="author" content="{{ AUTHOR }}" />
+    <meta name="description" content="{{ SITEDESCRIPTION }}" />
+    <meta name="author" content="{{ AUTHOR }}" />
     {% endblock %}
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
@@ -50,42 +50,23 @@
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/modernizr-2.6.2.min.js"></script>
     <!-- FOR IE9 below -->
     <!--[if lt IE 9]>
-    <script src="/theme/js/respond.min.js"></script>
+        <script src="/theme/js/respond.min.js"></script>
     <![endif]-->
     {% if FEED_ALL_ATOM %}
-        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom">
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom">
     {% endif %}
 
     {% if FEED_ALL_RSS %}
-        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS">
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS">
     {% endif %}
 
 
-    </head>
-    <body>
+</head>
+<body>
     <div id="fh5co-page">
         <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
         <aside id="fh5co-aside" role="complementary" class="border js-fullheight">
-
-            <nav class="fh5co-main-menu" role="navigation">
-                {% include 'partial/languages.html' %}
-            </nav>
-            <div class="clearfix"></div>
-            <h1  id="fh5co-logo">
-                <a href="{{ SITEURL }}/index.html">
-                    <img src="{{ LOGO }}" />
-                </a>
-            </h1>
-            <nav class="fh5co-main-menu" role="navigation">
-                {% include 'partial/mainNavigation.html' %}
-                {% if 'tipue_search' in PLUGINS %}
-                    {% include 'partial/search.html' %}
-                {% endif %}
-
-            </nav>
-
             {% include 'partial/social.html' %}
-
         </aside>
 
         <div id="fh5co-main">
@@ -109,6 +90,6 @@
 
     <!-- MAIN JS -->
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/main.js"></script>
-    </body>
+</body>
 </html>
 
