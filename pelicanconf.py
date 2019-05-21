@@ -68,8 +68,7 @@ HERO = [
 
 SOCIAL = (
     ('github', 'https://github.com/danpetry'),
-    ('ra',
-        'https://www.residentadvisor.net/profile/danielpetry/contrib'),
+    ('residentadvisor', 'https://www.residentadvisor.net/profile/danielpetry/contrib'),
     ('soundcloud', 'https://soundcloud.com/danielpetry'),
 )
 ABOUT = {
