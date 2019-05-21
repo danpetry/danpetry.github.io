@@ -24,6 +24,13 @@
         {% elif 'travis-ci' in social.1%}
             <li><a href="{{ social.1 }}" alt="{{ social.0 }}"><i class="icon-spanner"></i></a></li>
 
+        {% elif 'soundcloud' in social.1%}
+            <li><a href="{{ social.1 }}" alt="{{ social.0 }}"><i class="icon-spanner"></i></a></li>
+
+        {% elif 'ra' in social.1%}
+            <li><a href="{{ social.1 }}" alt="{{ social.0 }}"><i
+                                         class="icon-document"></i></a></li>
+
         {% endif %}
     {% endfor %}
 </ul>
