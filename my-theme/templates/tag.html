@@ -1,10 +1,3 @@
-{% extends "base.html" %}
-{% block title %}{{ SITENAME }} - {{ tag }}{% endblock %}
-{% block content %}
-    <div class="fh5co-narrow-content">
-        <h1 class="fh5co-heading-colored"><i class="icon-folder"></i> {{ tag }}</h1>
-        {% for article in articles %}
-            {% include 'partial/articleTeaser.html' %}
-        {% endfor %}
-    </div>
-{% endblock %}
+{% extends "index.html" %}
+{% block title %} &ndash; {{ _('Tag %(name)s', name=tag) }}{% endblock %}
+{% set summarise = True %}
