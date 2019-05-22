@@ -16,6 +16,7 @@ pelican --listen
 - sort out white bit when you scoll down
 - upload mixes to mixcloud and add that
 - contact details
+- make the blog pages look like on the wireframe
 - add ground symbol in top right and a cooler-looking dropdown menu
 - Deploying/pull to master: Commit /output and add blank index.html pointing to
   /output? Best way to do this? Last commit of branch?
