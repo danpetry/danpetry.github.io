@@ -33,9 +33,6 @@ SOCIAL = (
     ('soundcloud', 'https://soundcloud.com/danielpetry'),
 )
 
-MENUITEMS = (('Production', '/production.html'),
-             ('Coding', '/coding.html'),)
-
 DEFAULT_PAGINATION = False
 
 USE_LESS = True

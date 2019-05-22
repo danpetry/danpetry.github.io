@@ -32,25 +32,9 @@
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/pygments/{{ PYGMENTS_STYLE|default('github') }}.min.css">
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/font-awesome/css/font-awesome.min.css">
 
-        {% if CUSTOM_CSS %}
-        <link href="{{ SITEURL }}/{{ CUSTOM_CSS }}" rel="stylesheet">
-        {% endif %}
-
-        {% if FEED_ALL_ATOM %}
-        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom">
-        {% endif %}
-
-        {% if FEED_ALL_RSS %}
-        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS">
-        {% endif %}
-
         {% if FAVICON %}
         <link rel="shortcut icon" href="{{ FAVICON }}" type="image/x-icon">
         <link rel="icon" href="{{ FAVICON }}" type="image/x-icon">
-        {% endif %}
-
-        {% if GOOGLE_ANALYTICS %}
-        {% include "partial/ga.html" %}
         {% endif %}
 
         {% if BROWSER_COLOR %}
@@ -68,103 +52,27 @@
         {% block meta %}
         <meta name="author" content="{{ AUTHOR }}" />
         <meta name="description" content="{{ SITEDESCRIPTION }}" />
-        {% include "partial/og.html" %}
         {% endblock %}
 
         <title>{{ SITENAME }}{% block title %}{% endblock %}</title>
 
-        {% if GOOGLE_ADSENSE and GOOGLE_ADSENSE.page_level_ads %}
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({
-                google_ad_client: "{{ GOOGLE_ADSENSE.ca_id }}",
-                enable_page_level_ads: true
-            });
-        </script>
-        {% endif %}
-        {% if GOOGLE_TAG_MANAGER %}
-        {% include "partial/gtm.html" %}
-        {% endif %}
     </head>
     <body>
-        {% if GOOGLE_TAG_MANAGER %}
-        {% include "partial/gtm_noscript.html" %}
-        {% endif %}
         {% block aside %} {% endblock %}
         <main>
-            {% if GOOGLE_ADSENSE and GOOGLE_ADSENSE.ads.main_menu %}
-            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <ins class="adsbygoogle ads-responsive"
-                 data-ad-client="{{ GOOGLE_ADSENSE.ca_id }}"
-                 data-ad-slot="{{ GOOGLE_ADSENSE.ads.main_menu }}"></ins>
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-            {% endif %}
-
-            {% if MAIN_MENU %}
-            <nav>
-                <a href="{{ SITEURL }}">{{ _('Home') }}</a>
-
-                {% for title, link in MENUITEMS %}
-                <a href="{{ link }}">{{ title }}</a>
-                {% endfor %}
-
-                {% if FEED_ALL_ATOM %}
-                <a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}">{{ _('Atom') }}</a>
-                {% endif %}
-
-                {% if FEED_ALL_RSS %}
-                <a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}">{{ _('RSS') }}</a>
-                {% endif %}
-            </nav>
-            {% endif %}
-
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 </button>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
                     <li><a class="dropdown-item" href="{{ SITEURL }}/index.html">{{ _('Home') }}</a></li>
-
                     {% for cat, null in categories|sort %}
                     <li><a class="dropdown-item" href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
                     {% endfor %}
                 </div>
             </div>
-                {% block content %}
-
-                {% endblock %}
-
-            <!--
-                <footer>
-                {% if CC_LICENSE %}
-                {% include "partial/cc_license.html" %}
-                {% else %}
-                {% include "partial/copyright.html" %}
-                {% endif %}
-                </footer>
-            -->
+            {% block content %} {% endblock %}
         </main>
 
-        {% if GUAGES %}
-        {% include "partial/guages.html" %}
-        {% endif %}
-
-        {% if ADD_THIS_ID %}
-        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ ADD_THIS_ID }}" async="async"></script>
-        {% endif %}
-
-        {% if PIWIK_URL and PIWIK_SITE_ID %}
-        {% include "partial/piwik.html" %}
-        {% endif %}
-
-        {% include "partial/jsonld.html" %}
-
-        {% block additional_js %}{% endblock %}
-
-        {% if GITHUB_CORNER_URL %}
-        {% include 'partial/github.html' %}
-        {% endif %}
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
