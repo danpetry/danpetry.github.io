@@ -1,12 +1,13 @@
 ## test
 
-pelican content -t /path/to/theme
-pelican --listen
+./develop_server start 8000
 
 ## deploy
 
-1. build using pelican as above
-2. copy contents of output folder to root
+pelican content -o output -s pelicanconf.py
+ghp-import output -b gh-pages
+git checkout master
+git merge gh-pages --allow-unrelated-histories --strategy-option=theirs
 
 ## todos
 
