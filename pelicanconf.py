@@ -98,16 +98,6 @@ MENUITEMS = [
   ('Contact', 'contact.html')
 ]
 
-DIRECT_TEMPLATES = [
-  'index',
-  'tags',
-  'categories',
-  'authors',
-  'archives',
-  'search', # needed for tipue_search plugin
-  'contact' # needed for the contact form
-]
-
 # setup disqus
 DISQUS_SHORTNAME = 'gitcd-dev'
 DISQUS_ON_PAGES = False # if true its just displayed on every static page, like this you can still enable it per page

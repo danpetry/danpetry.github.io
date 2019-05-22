@@ -25,6 +25,18 @@
                                         {% endif %}
                                     {% endif %}
                                     
+                                    <p>
+                                        {% for link in hero.links %}
+                                            <a class="btn btn-primary" href="{{ link.url }}">
+                                                <i class="{{ link.icon }}"></i>
+                                                {% if link.text is string %}
+                                                    {{ link.text }}
+                                                {% elif DEFAULT_LANG in link.text %}
+                                                    {{ link.text[DEFAULT_LANG] }}
+                                                {% endif %}
+                                            </a>
+                                        {% endfor %}
+                                    </p>
                                 </div>
                             </div>
                         </div>
