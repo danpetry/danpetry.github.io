@@ -10,18 +10,16 @@ pelican --listen
 
 ## todos
 
-DONE - watch pelican overview videos
-DONE - get overview of documentation
-DONE - look at pelican-fh5co-marble-example and understand how it works
-DONE - tidy up git, i.e. what's being committed. 
-DONE - tidy up "my" theme folder. Put into site folder?
-DONE - get rapid development setup incl build on refresh and tmux etc
-- adapt new theme to look of previous site/theme
-- strip down theme and site folders
+- continue stripping down the theme
+- have all posts fully open instead of having continue reading button
+- make about page look different from blogs - eg no "posted on" line
+- sort out white bit when you scoll down
 - upload mixes to mixcloud and add that
-- add ground symbol in top right with dropdown to several blogs
+- contact details
+- add ground symbol in top right and a cooler-looking dropdown menu
 - Deploying/pull to master: Commit /output and add blank index.html pointing to
   /output? Best way to do this? Last commit of branch?
+- get an RA icon working
 - get opinions and refine
   - use bootstrap for eg sidebar/icons, to get better auto resizing and get an
     RA icon
