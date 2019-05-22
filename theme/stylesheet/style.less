@@ -4,6 +4,7 @@ html, body {
   height: 100%;
 }
 
+
 h1,
 h2,
 h3,
@@ -71,6 +72,13 @@ img {
 }
 
 aside {
+  width: 80px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  z-index: 6;
   background-color: @sidebar-bg;
   color: @sidebar-text-color;
   text-align: center;
@@ -115,7 +123,19 @@ aside {
 }
 
 main {
+  /* background: url('../img/crouching_1_1.jpg') no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-color: @grey-me;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  z-index: 5;
+
   nav {
     text-align: center;
     text-transform: uppercase;
@@ -344,6 +364,12 @@ div.related-posts {
   }
 }
 
+div.dropdown {
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
 ul.list, ul.social, ul.related-posts {
   list-style-type: none;
   margin: 0;
@@ -360,10 +386,14 @@ ul.list {
 
 ul.social {
   font-size: 1.6em;
-  padding-top: 20px;
+ // padding-top: 20px;
 
   li {
     display: block:;
+   // width: 100%;
+   // padding-top: 100%;
+   // padding-top: 20px;
+    padding-bottom: 40px;
   }
 
   a:hover {
@@ -374,12 +404,17 @@ ul.social {
 
   a {
     display: inline-block;
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 40px;
+   // width: 100%;
+   // padding-top: 100%;
     border-radius: 100%;
     text-align: center;
-    font-size: .8em;
-    line-height: 36px;
+    //font-size: .8em;
+    //line-height: 36px;
+  }
+  i {
+    padding-top: 7px;
   }
 
   a.sc-facebook {
@@ -430,6 +465,10 @@ ul.social {
     background-color: @github-bg-color;
   }
 
+  a.sc-resident-advisor {
+    background-color: @github-bg-color;
+  }
+
   a.sc-envelope-o {
     background-color: @email-bg-color;
   }
@@ -476,13 +515,6 @@ ul.social {
 
 @media screen and (min-width: 768px) {
   aside {
-    width: 10%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    overflow-y: auto;
-    z-index: 6;
 
     div {
       padding: 36px 18px;
@@ -503,12 +535,6 @@ ul.social {
   }
 
   main {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0%;
-    z-index: 5;
 
     article {
 
