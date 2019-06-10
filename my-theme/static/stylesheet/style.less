@@ -58,6 +58,22 @@ a:hover {
   color: @link-hover-color;
 }
 
+a.btn {
+  background-color: @btn-bg;
+  padding: .6em .6em;
+  font-size: .8em;
+  line-height: 1;
+  color: @btn-text-color;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+
+a.btn:hover {
+  background-color: @btn-hover-color;
+}
+
 hr {
   color: @light-grey;
   background-color: @light-grey;
@@ -302,22 +318,6 @@ main {
   a:hover {
     background-color: @tag-hover-color;
   }
-}
-
-a.btn {
-  background-color: @btn-bg;
-  padding: .6em .6em;
-  font-size: .8em;
-  line-height: 1;
-  color: @btn-text-color;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: baseline;
-  border-radius: .25em;
-}
-
-a.btn:hover {
-  background-color: @btn-hover-color;
 }
 
 .center, .text-center {
