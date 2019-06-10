@@ -4,9 +4,17 @@
 <aside>
     <div>
         <ul class="social">
-            {% for name, link in SOCIAL %}
-            <li><a class="sc-{{ name }}" href="{{ link }}" target="_blank"><i class="fa fa-{{ name }}"></i></a></li>
-            {% endfor %}
+            <li><a class="sc-soundcloud"
+                   href="https://soundcloud.com/danielpetry" target="_blank"><i
+                                                             class="fa
+                                                             fa-soundcloud"></i></a></li>
+            <li><a class="sc-mixcloud" href="https://www.mixcloud.com/"
+                                       target="_blank"><i class="fa fa-mixcloud"></i></a></li>
+            <li><a class="sc-github" href="https://github.com/danpetry" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
+            <li><a class="sc-resident-advisor"
+                   href="https://www.residentadvisor.net/profile/danielpetry/contrib"
+                   target="_blank"><img  src="{{ SITEURL
+                   }}/theme/img/resident-advisor-logo-white-only.png"/></a></li>
         </ul>
     </div>
 </aside>

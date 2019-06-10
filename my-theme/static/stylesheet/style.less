@@ -406,15 +406,20 @@ ul.social {
     display: inline-block;
     width: 40px;
     height: 40px;
-   // width: 100%;
-   // padding-top: 100%;
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 13px;
+      border-radius: 0;
+      width: 60%;
+    }
+    width: 100%;
     border-radius: 100%;
     text-align: center;
-    //font-size: .8em;
-    //line-height: 36px;
-  }
-  i {
-    padding-top: 7px;
+    font-size: .8em;
+    line-height: 40px;
+
   }
 
   a.sc-facebook {
@@ -466,7 +471,7 @@ ul.social {
   }
 
   a.sc-resident-advisor {
-    background-color: @github-bg-color;
+    background-color: @resident-advisor-bg-color;
   }
 
   a.sc-envelope-o {
@@ -479,6 +484,10 @@ ul.social {
 
   a.sc-soundcloud {
     background-color: @soundcloud-bg-color;
+  }
+
+  a.sc-mixcloud {
+    background-color: @mixcloud-bg-color;
   }
 
   a.sc-gitlab {
