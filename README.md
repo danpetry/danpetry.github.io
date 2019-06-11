@@ -13,6 +13,6 @@ git push
 
 ## todos
 
-- add ground symbol in top right and a cooler-looking dropdown menu
+- make dropdown text black
 - get opinions and refine
 - Do desktop version, including making the blog pages look like on the wireframe
