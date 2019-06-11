@@ -13,7 +13,6 @@ git push
 
 ## todos
 
-- upload mixes to mixcloud and add that
 - Put margin at top of first post
 - have all posts fully open instead of having continue reading button
 - make about page look different from blogs - eg no "posted on" line
