@@ -7,8 +7,8 @@ did a few passes of about an hour and it's sounding ok. I've been taking
 pointers from things that have been said by people like Juju and Jordash and
 people in the Circle of Live thing. Mostly about feeling safe, and confidence.
 Also it was interesting that this feeling of "will it or won't it happen", re
-good things coming out, seems to be something that all musicians feel even when
-they're pros.
+good things coming out, seems to be just something you feel when you're
+improvising.
 
 The setup has a drumbrute, an erebus hardware synth, a phonec 2 soft synth, and
 an axon polyrhythm generator going into tracks in ableton. There are four
