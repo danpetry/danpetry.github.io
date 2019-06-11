@@ -13,9 +13,6 @@ git push
 
 ## todos
 
-- make about page look different from blogs - eg no "posted on" line
-- make the blog pages look like on the wireframe
 - add ground symbol in top right and a cooler-looking dropdown menu
 - get opinions and refine
-  - use bootstrap for eg sidebar/icons, to get better auto resizing and get an
-    RA icon
+- Do desktop version, including making the blog pages look like on the wireframe
