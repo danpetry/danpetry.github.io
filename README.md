@@ -13,11 +13,10 @@ git push
 
 ## todos
 
-- tweak RA icon on mobile - doesn't display quite as well. (How to do image display that works ok on different screens?)
 - upload mixes to mixcloud and add that
+- Put margin at top of first post
 - have all posts fully open instead of having continue reading button
 - make about page look different from blogs - eg no "posted on" line
-- contact details
 - make the blog pages look like on the wireframe
 - add ground symbol in top right and a cooler-looking dropdown menu
 - get opinions and refine

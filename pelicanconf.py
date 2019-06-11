@@ -34,6 +34,7 @@ SOCIAL = (
 )
 
 DEFAULT_PAGINATION = False
+SUMMARY_MAX_LENGTH = False
 
 USE_LESS = True
 THEME = './my-theme'
