@@ -12,3 +12,7 @@ Resident advisor: writing I have done. I haven't done any for a while, I'll do b
 entries if I ever start again.  
 Soundcloud: tracks I have written and live set recordings.  
 Mixcloud: mixes.
+
+I wrote this site using Pelican.
+
+Contact me: dan at danpetry dot com.
