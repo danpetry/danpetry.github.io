@@ -13,8 +13,6 @@ git push
 
 ## todos
 
-- Put margin at top of first post
-- have all posts fully open instead of having continue reading button
 - make about page look different from blogs - eg no "posted on" line
 - make the blog pages look like on the wireframe
 - add ground symbol in top right and a cooler-looking dropdown menu
