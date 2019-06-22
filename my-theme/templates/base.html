@@ -65,9 +65,10 @@
                 </button>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
                     <li><a class="dropdown-item" href="{{ SITEURL }}/index.html">{{ _('Home') }}</a></li>
-                    {% for cat, null in categories|sort %}
-                    <li><a class="dropdown-item" href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
-                    {% endfor %}
+                    <li><a class="dropdown-item" href="{{ SITEURL}}/category/about.html">{{ _('About') }}</a></li>
+                    <li><a class="dropdown-item" href="{{ SITEURL}}/category/production.html">{{ _('Production') }}</a></li>
+                    <li><a class="dropdown-item" href="{{ SITEURL}}/category/dj.html">{{ _('DJ') }}</a></li>
+                    <li><a class="dropdown-item" href="{{ SITEURL}}/category/programming.html">{{ _('Programming') }}</a></li>
                 </div>
             </div>
             {% block content %} {% endblock %}
