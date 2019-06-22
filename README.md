@@ -13,6 +13,6 @@ git push
 
 ## todos
 
-- make dropdown text black
 - get opinions and refine
+- "keep updated" newsletter form
 - Do desktop version, including making the blog pages look like on the wireframe
