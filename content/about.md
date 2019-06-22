@@ -3,16 +3,17 @@ Date: 2019-05-08 16:02
 Category: About
 
 This is a site about my music-related activities. That includes making music,
-and music-related programming.
+and music-related making of techy stuff.
 
 The links on the home page are for:
 
-Github: code and design files for stuff I've made.  
-Resident advisor: writing I have done. I haven't done any for a while, I'll do blog
-entries if I ever start again.  
 Soundcloud: tracks I have written and live set recordings.  
-Mixcloud: mixes.
+Mixcloud: mixes.  
+Github: code and design files for stuff I've made.  
 
-I wrote this site using Pelican.
+I also wrote articles for Resident Advisor for a while. I reviewed music, events
+and tech products. You can find the articles I wrote [here](https://www.residentadvisor.net/profile/danielpetry/contrib').
+
+I made this site using Pelican.
 
 Contact me: dan at danpetry dot com.
