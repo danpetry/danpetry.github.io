@@ -7,6 +7,7 @@ SITENAME = 'Dan Petry'
 SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS = ['img']
 
 TIMEZONE = 'Europe/Berlin'
 
