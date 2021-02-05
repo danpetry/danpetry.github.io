@@ -11,6 +11,9 @@
     {% block before_content %}{% endblock %}
     {% block page_content %}{{ page.content }}{% endblock %}
     {% block after_content %}{% endblock %}
+    {% if page.category != "pages" %}
+      <a href="{{ SITEURL }}/category/{{ page.category }}.html">Diary</a>
+    {% endif %}
   </div>
 </article>
 {% endblock %}

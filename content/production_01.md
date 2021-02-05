@@ -1,6 +1,6 @@
 Title: Improvising
 Date: 2019-05-08 16:02
-Category: Production
+Category: production
 
 Over the last two and a half weeks I came up with a setup for improvising. I
 did a few passes of about an hour and it's sounding ok. I've been taking

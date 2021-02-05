@@ -1,6 +1,4 @@
 Title: About
-Date: 2019-05-08 16:02
-Category: About
 
 This is a site about my music-related activities. That includes making music,
 and music-related making of techy stuff.
