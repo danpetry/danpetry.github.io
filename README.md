@@ -1,7 +1,6 @@
 ## test
 
-./watch.rb . localhost & \
-pelican -lr
+./develop_server start
 
 ## deploy
 

@@ -12,6 +12,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="HandheldFriendly" content="True" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script type="text/javascript" src="http://livejs.com/live.js"></script>
         {% if page in hidden_pages %}
         <meta name="robots" content="noindex, nofollow" />
         {% else %}
@@ -67,9 +68,9 @@
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
                     <li><a class="dropdown-item" href="{{ SITEURL }}/index.html">{{ _('Home') }}</a></li>
                     <li><a class="dropdown-item" href="{{ SITEURL}}/pages/about.html">{{ _('About') }}</a></li>
+                    <li><a class="dropdown-item" href="{{ SITEURL}}/pages/programming.html">{{ _('Programming') }}</a></li>
                     <li><a class="dropdown-item" href="{{ SITEURL}}/pages/production.html">{{ _('Production') }}</a></li>
                     <li><a class="dropdown-item" href="{{ SITEURL}}/pages/djing.html">{{ _('DJ') }}</a></li>
-                    <li><a class="dropdown-item" href="{{ SITEURL}}/pages/programming.html">{{ _('Programming') }}</a></li>
                 </div>
             </div>
             {% block content %} {% endblock %}
