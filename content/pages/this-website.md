@@ -1,4 +1,4 @@
 Title: This Website
 Category: this-website
 
-blahblah
+I made this site using Pelican.
