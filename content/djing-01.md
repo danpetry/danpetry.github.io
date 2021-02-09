@@ -1,6 +1,6 @@
 Title: Newer records
 Date: 2019-05-08 16:02
-Category: DJ
+Category: djing
 
 I used to be able to DJ breaks ok. Breaks are really easy to DJ, they've all
 got a predictable structure and loud snares that make them easy to line up with

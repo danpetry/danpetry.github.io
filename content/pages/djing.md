@@ -1,4 +1,4 @@
 Title: DJing
-Category: dj
+Category: djing
 
 Some stuff about DJing

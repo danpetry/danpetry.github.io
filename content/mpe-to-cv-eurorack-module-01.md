@@ -1,6 +1,6 @@
-Title: MPE to CV module
+Title: Hardware prototype 
 Date: 2019-09-17 20:44
-Category: Programming
+Category: mpe-to-cv-eurorack-module
 
 So, I bought a load of components from Digikey. Some are still on the way
 (don't ask), but in general the hardware aspect of the prototype of this module

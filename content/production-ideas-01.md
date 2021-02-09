@@ -1,6 +1,6 @@
 Title: Finding the new sound
 Date: 2019-09-17 17:41
-Category: Production
+Category: production-ideas
 
 It feels a bit embarrassing to say I'm "finding my sound", because it's a
 cliche, so I've titled this post using a reference to a Mighty Boosh song. To
