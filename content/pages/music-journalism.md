@@ -1,4 +1,6 @@
 Title: Music Journalism
 
-I wrote articles for Resident Advisor for a while. I reviewed music, events
-and tech products. You can find the articles I wrote [here](https://www.residentadvisor.net/profile/danielpetry/contrib').
+This is a large number of articles written for a small magazine called Base.ad
+in London and a website called Resident Advisor. They were reviews of music,
+events and tech products. You can find some of them
+[here](https://www.residentadvisor.net/profile/danielpetry).

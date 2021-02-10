@@ -1,7 +1,7 @@
 Title: Dry River EP
 
 This was an EP released in 2016, through Third Ear recordings, on vinyl and
-digital.  [Here's](https://www.discogs.com/sell/release/9041283) the Discogs
+digital.  [Here's](https://www.discogs.com/Ged-Dry-River/release/9041283) the Discogs
 page, and
 [here's](https://soundcloud.com/third-ear-recordings/sets/ged-dry-river-ep) the
 audio.

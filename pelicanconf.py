@@ -9,7 +9,7 @@ SITEURL = ''
 PATH = 'content'
 STATIC_PATHS = ['img']
 
-TIMEZONE = 'Europe/Berlin'
+MEZONE = 'Europe/Berlin'
 
 DEFAULT_LANG = 'en'
 
