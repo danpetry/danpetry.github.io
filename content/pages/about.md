@@ -1,5 +1,6 @@
 Title: About
 
+Spreading myself too thinly since 1983/
 I used to have a hard time deciding whether to be an engineer or a musician, so
 in the end I didn't.
 
