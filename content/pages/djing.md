@@ -21,12 +21,12 @@ in a pub in south London - although I never managed to play an outdoor party
 during the summer, sadly.
 
 Towards the late 2000s, breaks died a timely demise, and I was getting lots of
-free house and techno records from my [writing](relative link to writing), so I
+free house and techno records from my [writing](music-journalism.html), so I
 started playing more of that. I played once or twice at friends' parties and
 once at a festival in Wales called [Gottwood](https://www.gottwood.co.uk/), but
 I had figured out that you can only really build a name as a DJ through
 producing music, unless your name is Ben UFO, so [my focus shifted to
-that](relative link to production). My style was particularly musical: melodies
+that](music-production.html). My style was particularly musical: melodies
 and rhythms playing off against each other, or atmospheric tracks that built
 symphonically, or ones with wild, improvised elements that could make the seams
 of reality split in a forest glade at 3 a.m. (Still no 3 a.m. forest glade
