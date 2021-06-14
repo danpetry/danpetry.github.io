@@ -11,6 +11,10 @@ I play, write, write about, and make gadgets for, music. This site is a display
 cabinet for these projects; a place to collect them together, take note of
 them, and track them as they grow.
 
+This website was designed on a piece of paper in my local, and programmed using
+a static site generator called Pelican. The repo is
+[here](https://github.com/danpetry/danpetry.github.io).
+
 Contact me: dan at danpetry dot com.
 
 [Photo: unedited homepage photo]
