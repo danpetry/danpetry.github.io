@@ -12,8 +12,5 @@ playing at that time.
 Around the early 2010's, I gravitated more towards melodic, interesting house
 and techno:
 
-[pastel mix]
-[deep forest mix thingy]
-
-
-(https://www.mixcloud.com/danielpetry).
+<iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fdanielpetry%2Fpastel%2F" frameborder="0" ></iframe>
+<iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fdanielpetry%2Floopholes%2F" frameborder="0" ></iframe>
