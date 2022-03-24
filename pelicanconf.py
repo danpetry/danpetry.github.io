@@ -7,7 +7,20 @@ SITENAME = 'Dan Petry'
 SITEURL = ''
 
 PATH = 'content'
-STATIC_PATHS = ['img']
+STATIC_PATHS = ['img', 'extra']
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/CNAME': {'path': 'CNAME'},
+    'extra/apple-touch-icon.png': {'path': 'apple-touch-icon.png'},
+    'extra/apple-touch-icon-57x57.png': {'path': 'apple-touch-icon-57x57.png'},
+    'extra/apple-touch-icon-72x72.png': {'path': 'apple-touch-icon-72x72.png'},
+    'extra/apple-touch-icon-76x76.png': {'path': 'apple-touch-icon-76x76.png'},
+    'extra/apple-touch-icon-114x114.png': {'path': 'apple-touch-icon-114x114.png'},
+    'extra/apple-touch-icon-120x120.png': {'path': 'apple-touch-icon-120x120.png'},
+    'extra/apple-touch-icon-144x144.png': {'path': 'apple-touch-icon-144x144.png'},
+    'extra/apple-touch-icon-152x152.png': {'path': 'apple-touch-icon-152x152.png'},
+    'extra/apple-touch-icon-180x180.png': {'path': 'apple-touch-icon-180x180.png'},
+}
 
 MEZONE = 'Europe/Berlin'
 
