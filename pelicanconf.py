@@ -22,7 +22,7 @@ EXTRA_PATH_METADATA = {
     'extra/apple-touch-icon-180x180.png': {'path': 'apple-touch-icon-180x180.png'},
 }
 
-MEZONE = 'Europe/Berlin'
+TIMEZONE = 'Europe/Berlin'
 
 DEFAULT_LANG = 'en'
 
